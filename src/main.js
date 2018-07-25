@@ -5,6 +5,7 @@ import Vuetify from 'vuetify'
 import 'vuetify/dist/vuetify.css'
 import VueCordova from 'vue-cordova'
 import VueHead from 'vue-head'
+import UUID from 'vue-uuid'
 
 import App from './App'
 import router from './router'
@@ -23,6 +24,7 @@ Vue.use(Vuetify, {
 Vue.config.productionTip = false
 Vue.use(VueCordova)
 Vue.use(VueHead)
+Vue.use(UUID)
 
 // add cordova.js only if serving the app through file://
 if (window.location.protocol === 'file:' || window.location.port === '3000') {

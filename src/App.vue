@@ -63,7 +63,12 @@
           linkpath: '/'
         },
         {
-          icon: 'help',
+          icon: 'format_quote',
+          title: 'Quotes',
+          linkpath: '/quotes'
+        },
+        {
+          icon: 'star',
           title: 'Favorites',
           linkpath: '/favorites'
         }],
